@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import { Title } from './style'
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+    <Title>Nextです</Title>
     <p>
       <Link href="/about">
         <a>About</a>
