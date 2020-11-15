@@ -5,7 +5,7 @@ import { User } from '../../interfaces'
 import { sampleUserData } from '../../utils/sample-data'
 import Layout from '../../components/Layout'
 import List from '../../components/List'
-import { Title } from '../style'
+import { Title } from '../../utils/style'
 
 type Props = {
   items: User[]
